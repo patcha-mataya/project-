@@ -1,0 +1,126 @@
+/* ธีมเค้ก - ใช้สีหวานและลวดลายขนม */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe4bb;
+    color: #713827;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  
+  .navbar {
+    background-color: #ffc7d7; /* สีชมพูพาสเทล */
+  }
+  .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: #ffcdcd !important;
+  }
+  .nav-link {
+    color: #ffcdcd !important;
+  }
+  .nav-link:hover {
+    color: #ef8b89 !important; /* สีชมพูเข้ม */
+  }
+  
+  header {
+    background: url('หลัง.jpg'); /* เปลี่ยนเป็นชื่อไฟล์ที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #6b51ff;
+    text-shadow: 2px 2px 4px rgb(26, 79, 80);
+    padding: 100px 0;
+}
+  header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+  header .btn {
+    background-color: #ef8b89;
+    border: none;
+    color: #adf4b1;
+  }
+  header .btn:hover {
+    background-color: #bcbcf2;
+  }
+  
+  /* Features */
+  #features {
+    background-color: #fef3e6;
+  }
+  #features h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #c76d6d;
+  }
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .card-title {
+    color: #5c3b31;
+  }
+  .card-text {
+    color: #7b574e;
+  }
+  
+  /* Testimonials */
+  #testimonials {
+    background-color: #fffaf3;
+  }
+  #testimonials h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #c76d6d;
+  }
+  blockquote {
+    background: #fce7e3;
+    padding: 1rem;
+    border-left: 5px solid #ef8b89;
+    border-radius: 10px;
+  }
+  
+  /* Social Links */
+  #contact {
+    background-color: #fddde6;
+  }
+  #contact h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #5c3b31;
+  }
+  #contact a {
+    background-color: #ef8b89;
+    color: #fff;  
+    border-radius: 110%;
+    padding: 20px;
+    text-decoration: none;
+  }
+  #contact a:hover {
+    background-color: #c76d6d;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #52a1b4;
+    color: #fff;
+  }
+  footer p {
+    margin: 0;
+    color: #fdc843;
+    padding: 10px;
+  }
+  
